@@ -26,7 +26,9 @@ Api nin verdği farklı veriler de var isteyen inceleyip proje oluşturabilir on
 ### React Router
 Routing Nedir ? 
 ```
-Yönlendirme, kullanıcıya farklı sayfalar gösterme kapasitesidir. Bu, kullanıcının bir URL girerek veya bir öğeye tıklayarak uygulamanın farklı bölümleri arasında hareket edebileceği anlamına gelir.
+Yönlendirme, kullanıcıya farklı sayfalar gösterme kapasitesidir. 
+Bu, kullanıcının bir URL girerek veya bir öğeye tıklayarak uygulamanın farklı 
+bölümleri arasında hareket edebileceği anlamına gelir.
 ```
 
 Neden react router kullanılıyor ?
@@ -35,8 +37,14 @@ React hepimizn bildiği gibi single page bir yapı. sayfalar arası gezinebilmek
 
 Single Page Nedir?
 ```
-Single page application yani kısa adıyla SPA, tek HTML sayfası yükleyen bir uygulamadır ve uygulamanın çalışması için gerekli tüm dosyaları (JavaScript, CSS vb) içerir. Sayfa veya sonraki sayfalarla olan herhangi bir etkileşim için servera gidip gelmesi gerektirmez; bu da sayfanın yeniden yüklenmediği anlamına gelir.
-Reactte SPA oluşturabilmenize rağmen, bu bir zorunluluk değildir. React, hali hazırda çalışan bir sitenin küçük bölümlerini geliştirmek için de kullanılabilir. React’te yazılmış kod, diğer diller ile de kullanılabilir. Facebook’un sitesi buna en iyi örnektir
+Single page application yani kısa adıyla SPA, tek HTML sayfası yükleyen bir uygulamadır 
+ve uygulamanın çalışması için gerekli tüm dosyaları (JavaScript, CSS vb) içerir. 
+Sayfa veya sonraki sayfalarla olan herhangi bir etkileşim için servera 
+gidip gelmesi gerektirmez; bu da sayfanın yeniden yüklenmediği anlamına gelir.
+Reactte SPA oluşturabilmenize rağmen, bu bir zorunluluk değildir. 
+React, hali hazırda çalışan bir sitenin küçük bölümlerini geliştirmek için 
+de kullanılabilir. React’te yazılmış kod, diğer diller ile de kullanılabilir. 
+Facebook’un sitesi buna en iyi örnektir
 ```
 
 Yani normal html projelerinde bizim örneğin home.html,about.html,profile.html yapılarımız var.Biz napıyoruz bunları biribirne `<a>` tagi ile bağlıyoruz. Aslında 3sayfada tek projeye ait ama html yapısından ötürü biz home.html den about.html e gitmek istediğimizde farklı bir sayfaya gidiyoruz.
